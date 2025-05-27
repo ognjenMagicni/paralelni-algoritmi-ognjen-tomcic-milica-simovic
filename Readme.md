@@ -21,9 +21,6 @@ git init
 git clone git@github.com:ognjenMagicni/Project001.git   
 git pull origin main
 cd paralelni-algoritmi-ognjen-tomcic-milica-simovic
-python3 -m venv venv_p
-source venv_p/bin/activate
-pip3 install -r requirements.txt 
 ```
 ## Pokretanje Milicinog prvog zad
 
