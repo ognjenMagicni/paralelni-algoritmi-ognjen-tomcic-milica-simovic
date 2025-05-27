@@ -1,9 +1,9 @@
 # Tema
 Prikazivanje pristupa paralelizacije na tri različita algoritma (Milicin prvi zadatak) ekvalizacije histograma i (Milicin drugi zadatak).
 
-## Milicin prvi zadatak
+## Pipeline Segmentation by Region Growing​
 
-Nesto malo teksta
+Program identifikuje povezane regije koje imaju sličan intenzitet piksela. 
 
 ## Ekvalizacija histograma
 
@@ -11,9 +11,9 @@ Histogram ekvalizacije je metoda transformacije slike pomoću kulmulativnog hist
 
 Gdje je T funkcija transformacije, L je najveći intezitet boje, n ukupan broj piksela, h<sub>i</sub> broj piksela inteziteta, a k intezitet piksela koji se razmatra r<sub>k</sub>.
 
-## Milicin drugi zadatak
+## Global tresholding
 
-Nesto malo teksta
+Razvijeni algoritam koristi paralelnu obradu slike baziranu na rekurzivnoj podjeli slike (Quad-Tree segmentaciji) i iterativnom globalnom pragovanju piksela u svakoj regiji. ​
 
 # Instalacija
 ```
