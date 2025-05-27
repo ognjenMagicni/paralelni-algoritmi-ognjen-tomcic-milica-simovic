@@ -27,6 +27,10 @@ pip3 install -r requirements.txt
 ```
 ## Pokretanje Milicinog prvog zad
 
+```
+python -u parallelsegmentation.py
+```
+
 ## Pokretanje histograma ekvalizacije
 
 ```
@@ -35,3 +39,6 @@ python3 alg.py
 ```
 
 ## Pokretanje Milicinog drugog zadatka
+```
+python -u globaltreshold.py
+```
