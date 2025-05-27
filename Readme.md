@@ -1,10 +1,9 @@
 # Tema
 Prikazivanje pristupa paralelizacije na tri različita algoritma (Milicin prvi zadatak) ekvalizacije histograma i (Milicin drugi zadatak).
 
-## Milicin prvi zadatak
+## Pipeline Segmentation by Region Growing
 
-Nesto malo teksta
-
+Koristimo region growing algoritam za segmentaciju slika​ kako bi identifikovali povezane regije koje imaju sličan intenzitet piksela.
 ## Ekvalizacija histograma
 
 Histogram ekvalizacije je metoda transformacije slike pomoću kulmulativnog histograma, koji teorijski poboljšava kvalitet slike. Za računanje histograma ekvalizacije koristimo sledeću formulu:
@@ -30,7 +29,7 @@ cd paralelni-algoritmi-ognjen-tomcic-milica-simovic
 ```
 ## Pokretanje Pipeline segmentation
 ```
-python -u 
+python -u parallelsegmentation.py
 ```
 ## Pokretanje histograma ekvalizacije
 
@@ -41,5 +40,5 @@ python3 alg.py
 
 ## Pokretanje Tresholding
 ```
-python -u 
+python -u globaltreshold.py
 ```
